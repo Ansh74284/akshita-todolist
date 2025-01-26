@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Cat, Heart, Plus, Trash2, Check } from 'lucide-react';
+import AkshitaPic from './images/akshita2.jpg'
 
 interface Todo {
   id: number;
@@ -35,7 +36,7 @@ function App() {
         <div className="bg-white rounded-t-2xl p-6 shadow-lg">
           <div className="flex items-center justify-center mb-4">
             <img 
-              src="/images/akshita.jpg"
+              src={AkshitaPic}
               alt="Akshita's profile" 
               className="w-24 h-24 rounded-full object-cover border-4 border-pink-300"
             />
