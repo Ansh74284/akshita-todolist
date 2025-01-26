@@ -35,7 +35,7 @@ function App() {
         <div className="bg-white rounded-t-2xl p-6 shadow-lg">
           <div className="flex items-center justify-center mb-4">
             <img 
-              src="/images/akshita2.jpg"
+              src="/images/akshita.jpg"
               alt="Akshita's profile" 
               className="w-24 h-24 rounded-full object-cover border-4 border-pink-300"
             />
